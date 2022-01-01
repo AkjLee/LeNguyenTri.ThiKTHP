@@ -1,0 +1,17 @@
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\bin\Debug\QLCuaHangDiDong.exe.config
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\bin\Debug\QLCuaHangDiDong.exe
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\bin\Debug\QLCuaHangDiDong.pdb
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.csprojAssemblyReference.cache
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.frmDangnhap.resources
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.Properties.Resources.resources
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.csproj.GenerateResource.cache
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.csproj.CoreCompileInputs.cache
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.exe
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.pdb
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\bin\Debug\EntityFramework.dll
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\bin\Debug\EntityFramework.xml
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.frmQLSP.resources
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.csproj.CopyComplete
+C:\Users\thile\source\repos\QLCuaHangDiDong\QLCuaHangDiDong\obj\Debug\QLCuaHangDiDong.frmThemSP.resources
