@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.apache.jena.vocabulary.DC"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.StringWriter"/>
+    <fullyQualifiedTypeName name="org.apache.jena.riot.RDFDataMgr"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.utils.XMLSecurityPropertyManager.Property"/>
+    <fullyQualifiedTypeName name="org.apache.jena.rdf.model.Resource"/>
+    <fullyQualifiedTypeName name="org.apache.jena.vocabulary.VCARD"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.ResultSet"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.QuerySolution"/>
+    <fullyQualifiedTypeName name="org.apache.jena.rdf.model.Literal"/>
+    <fullyQualifiedTypeName name="org.apache.jena.iri.impl.Main"/>
+    <fullyQualifiedTypeName name="org.apache.jena.rdf.model.Model"/>
+    <fullyQualifiedTypeName name="org.apache.jena.rdf.model.ModelFactory"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="org.apache.jena.util.FileManager"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.Query"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.QueryFactory"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.QueryExecution"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.QueryExecutionFactory"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.ResultSetRewindable"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.ResultSetFactory"/>
+    <fullyQualifiedTypeName name="org.apache.jena.query.ResultSetFormatter"/>
+    <fullyQualifiedTypeName name="org.apache.jena.vocabulary.RDF"/>
+</qualifiedTypeNameHistroy>

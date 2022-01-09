@@ -1,0 +1,58 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://semanticweb-lear/"
+    xmlns:j.1="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://semanticweb-lear/VietNam">
+    <j.0:coutry>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/Hue">
+        <vcard:FN>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/BienCanhDuong">
+            <vcard:ADR>Lộc Vĩnh, Thừa Thiên Huế</vcard:ADR>
+            <rdf:predicate>3000000VNĐ</rdf:predicate>
+            <vcard:NAME>Biển Cảnh Dương</vcard:NAME>
+          </rdf:Description>
+        </vcard:FN>
+        <vcard:FN>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/BachMaVillage">
+            <vcard:ADR>Vườn Quốc gia Bạch Mã, Lộc Trì, Phú Lộc, Thừa Thiên Huế</vcard:ADR>
+            <rdf:predicate>3000000VNĐ</rdf:predicate>
+            <vcard:NAME>Bạch Mã Village</vcard:NAME>
+          </rdf:Description>
+        </vcard:FN>
+        <vcard:FN>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/SuoiVoi">
+            <vcard:ADR>Lộc Tiến, Phú Lộc, Thừa Thiên Huế</vcard:ADR>
+            <rdf:predicate>2000000VNĐ</rdf:predicate>
+            <vcard:NAME>Suối voi</vcard:NAME>
+          </rdf:Description>
+        </vcard:FN>
+      </rdf:Description>
+    </j.0:coutry>
+    <j.0:coutry>
+      <rdf:Description rdf:about="http://dbpedia.org/resource/DaLat">
+        <vcard:FN>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/VuonThuZooDooDaLat">
+            <vcard:ADR>tiểu khu 94 A – Xã Đa Nhim – Huyện Lạc Dương – Tỉnh Lâm Đồng</vcard:ADR>
+            <rdf:predicate>3000000VNĐ</rdf:predicate>
+            <vcard:NAME>Vườn Thú ZooDoo</vcard:NAME>
+          </rdf:Description>
+        </vcard:FN>
+        <vcard:FN>
+          <rdf:Description rdf:about="http://dbpedia.org/resource/ThacDatanla">
+            <vcard:ADR>QL20 Đèo Prenn, Phường 3, Thành phố Đà Lạt, Lâm Đồng 66000</vcard:ADR>
+            <rdf:predicate>2000000VNĐ</rdf:predicate>
+            <vcard:NAME>Thác Datanla</vcard:NAME>
+          </rdf:Description>
+        </vcard:FN>
+      </rdf:Description>
+    </j.0:coutry>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nguyen.kim.ngan/foaf.rdf#">
+    <j.1:based_near rdf:resource="http://dbpedia.org/resource/DaLat"/>
+    <dc:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <vcard:EMAIL>nganpt054@gmail.com</vcard:EMAIL>
+    <j.0:lamViecTai rdf:resource="http://semanticweb-lear/dhkh"/>
+  </rdf:Description>
+</rdf:RDF>

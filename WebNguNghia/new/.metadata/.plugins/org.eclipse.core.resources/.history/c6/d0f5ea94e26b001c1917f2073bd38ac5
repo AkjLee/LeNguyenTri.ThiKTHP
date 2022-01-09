@@ -1,0 +1,229 @@
+package com.LNTri.jena;
+
+import java.io.StringWriter;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.riot.RDFDataMgr;
+import org.apache.jena.vocabulary.DC;
+import org.apache.jena.vocabulary.VCARD;
+
+public class baithi {
+
+	static Model creaModel() {
+		// some definitions
+		String personURI = "http://www.w3.org/Giangvien/LeMyCanh";
+		String KhoaIRI = "http://ww.w3.org/Khoa/CNTT";
+		String givenName = "Le";
+		String familyName = "My Canh";
+		String emailName = "LMCanh123@w3.org";
+		String fullName = givenName + " " + familyName;
+
+		// create an empty Model
+		Model model1 = ModelFactory.createDefaultModel();
+
+		// create the resource
+		// and add the properties cascading style
+		Resource lnt = model1.createResource(personURI).addProperty(VCARD.N,
+				model1.createResource(KhoaIRI).addProperty(VCARD.EMAIL, emailName).addProperty(VCARD.NAME, fullName));
+
+		return model1;
+		//model.write(System.out);
+	}
+///////////////////////////////////////////
+	static Model creaModel2() {
+		// some definitions
+		String personURI = "http://www.w3.org/Khoa/K42";
+		String KhoaK42IRI = "http://ww.w3.org/LeNguyenTri";
+		String givenName = "Le Nguyen";
+		String familyName = "Tri";
+		String Number ="123";
+		String emailName = "lnTri1@w3.org";
+		String fullName = givenName + " " + familyName;
+
+		// create an empty Model
+		Model model2 = ModelFactory.createDefaultModel();
+
+		// create the resource
+		// and add the properties cascading style
+		Resource lnt = model2.createResource(personURI).addProperty(VCARD.N,
+				model2.createResource(KhoaK42IRI).addProperty(VCARD.ADR, Number).addProperty(VCARD.EMAIL, emailName).addProperty(VCARD.NAME, fullName));
+
+		return model2;
+		//model.write(System.out);
+	}
+	
+	static Model creaModel3() {
+			// some definitions
+			String personURI = "http://ww.w3.org/Khoa/K42";
+			String KhoaK42IRI = "http://ww.w3.org/NguyenKimNgan";
+			String givenName = "Nguyen Kim";
+			String familyName = "Ngan";
+			String emailName = "nkNgan2@w3.org";
+			String fullName = givenName + " " + familyName;
+
+			// create an empty Model
+			Model model3 = ModelFactory.createDefaultModel();
+
+			// create the resource
+			// and add the properties cascading style
+			Resource lnt = model3.createResource(personURI).addProperty(VCARD.N,
+					model3.createResource(KhoaK42IRI).addProperty(VCARD.EMAIL, emailName).addProperty(VCARD.NAME, fullName));
+
+			return model3;
+			//model.write(System.out);
+		}
+	static Model creaModel4() {
+		// some definitions
+		String personURI = "http://ww.w3.org/Khoa/K42";
+		String KhoaK42IRI = "http://www.w3.org/TranVanHaiDuong";
+		String givenName = "Tran Van Hai";
+		String familyName = "Duong";
+		String emailName = "tvhDuong3@w3.org";
+		String fullName = givenName + " " + familyName;
+
+		// create an empty Model
+		Model model4 = ModelFactory.createDefaultModel();
+
+		// create the resource
+		// and add the properties cascading style
+		Resource lnt = model4.createResource(personURI).addProperty(VCARD.N,
+				model4.createResource(KhoaK42IRI).addProperty(VCARD.EMAIL, emailName).addProperty(VCARD.NAME, fullName));
+
+		return model4;
+		//model.write(System.out);
+	}
+	static Model creaModel5() {
+		// some definitions
+		String personURI = "http://www.w3.org/Khoa/K41";
+		String KhoaK41IRI = "http://www.w3.org/HuynhTienAnh";
+		String givenName = "Huynh Tien";
+		String familyName = "Anh";
+		String emailName = "htAnh4@w3.org";
+		String fullName = givenName + " " + familyName;
+
+		// create an empty Model
+		Model model5 = ModelFactory.createDefaultModel();
+
+		// create the resource
+		// and add the properties cascading style
+		Resource lnt = model5.createResource(personURI).addProperty(VCARD.N,
+				model5.createResource(KhoaK41IRI).addProperty(VCARD.EMAIL, emailName).addProperty(VCARD.NAME, fullName));
+
+		return model5;
+		//model.write(System.out);
+	}
+	static Model creaModel6() {
+		// some definitions
+		String personURI = "http://ww.w3.org/Khoa/K41";
+		String KhoaK41IRI = "http://ww.w3.org/LuongVietBao";
+		String givenName = "Luong Viet";
+		String familyName = "Bao";
+		String emailName = "lvBao5@w3.org";
+		String fullName = givenName + " " + familyName;
+
+		// create an empty Model
+		Model model6 = ModelFactory.createDefaultModel();
+
+		// create the resource
+		// and add the properties cascading style
+		Resource lnt = model6.createResource(personURI).addProperty(VCARD.N,
+				model6.createResource(KhoaK41IRI).addProperty(VCARD.EMAIL, emailName).addProperty(VCARD.NAME, fullName));
+
+		return model6;
+		//model.write(System.out);
+	}
+	static Model creaModel7() {
+		// some definitions
+		String personURI = "http://www.w3.org/Khoa/K40";
+		String KhoaK40IRI = "http://ww.w3.org/TranThiNgocNhu";
+		String givenName = "Tran Thi Ngoc";
+		String familyName = "Nhu";
+		String emailName = "ttnNhu6@w3.org";
+		String fullName = givenName + " " + familyName;
+
+		// create an empty Model
+		Model model7 = ModelFactory.createDefaultModel();
+
+		// create the resource
+		// and add the properties cascading style
+		Resource lnt = model7.createResource(personURI).addProperty(VCARD.N,
+				model7.createResource(KhoaK40IRI).addProperty(VCARD.EMAIL, emailName).addProperty(VCARD.NAME, fullName));
+
+		return model7;
+		//model.write(System.out);
+	}
+	
+	
+///////////////////////////////////////////	
+	
+	static void createAndPrintModel() {
+		Model model =creaModel();
+		Model model2 =creaModel2();
+		Model model3 =creaModel3();
+		Model model4 =creaModel4();
+		Model model5 =creaModel5();
+		Model model6 =creaModel6();
+		Model model7 =creaModel7();
+		// In nội dung của model dưới dạng mặc định (XML-RDF)
+		model.write(System.out);
+		model2.write(System.out);
+		model3.write(System.out);
+		model4.write(System.out);
+		model5.write(System.out);
+		model6.write(System.out);
+		model7.write(System.out);
+	}
+	
+	static void createAndPrintModel2() {
+		System.out.println("Xuất dữ liệu theo dạng bộ 3");
+		Model model1= creaModel();
+		StringWriter sw= new StringWriter();
+		RDFDataMgr.write(sw, model1, org.apache.jena.riot.Lang.NTRIPLES);
+		System.out.println("Nội dung dữ liệu 1");
+		System.out.println(sw);
+		
+		Model model2= creaModel2();
+		StringWriter sw2= new StringWriter();
+		RDFDataMgr.write(sw2, model2, org.apache.jena.riot.Lang.NTRIPLES);
+		System.out.println("Nội dung dữ liệu 2");
+		System.out.println(sw2);
+		
+		Model model3= creaModel3();
+		StringWriter sw3= new StringWriter();
+		RDFDataMgr.write(sw3, model3, org.apache.jena.riot.Lang.NTRIPLES);
+		System.out.println("Nội dung dữ liệu 3");
+		System.out.println(sw3);
+		
+		Model model4= creaModel4();
+		StringWriter sw4= new StringWriter();
+		RDFDataMgr.write(sw4, model4, org.apache.jena.riot.Lang.NTRIPLES);
+		System.out.println("Nội dung dữ liệu 4");
+		System.out.println(sw3);
+		
+		Model model5= creaModel5();
+		StringWriter sw5= new StringWriter();
+		RDFDataMgr.write(sw5, model5, org.apache.jena.riot.Lang.NTRIPLES);
+		System.out.println("Nội dung dữ liệu 5");
+		System.out.println(sw3);
+		
+		Model model6= creaModel6();
+		StringWriter sw6= new StringWriter();
+		RDFDataMgr.write(sw6, model6, org.apache.jena.riot.Lang.NTRIPLES);
+		System.out.println("Nội dung dữ liệu 6");
+		System.out.println(sw3);
+		
+		Model model7= creaModel7();
+		StringWriter sw7= new StringWriter();
+		RDFDataMgr.write(sw7, model7, org.apache.jena.riot.Lang.NTRIPLES);
+		System.out.println("Nội dung dữ liệu 7");
+		System.out.println(sw7);
+	}
+	
+	
+	public static void main(String[] args) {
+		createAndPrintModel();
+		createAndPrintModel2();
+	}
+}
